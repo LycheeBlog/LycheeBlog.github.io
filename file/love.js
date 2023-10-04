@@ -73,32 +73,25 @@
     }
 
     Seed = function(tree, point, scale, color) {
-    this.tree = tree;
+        this.tree = tree;
 
-    var scale = scale || 1;
-    var color = color || '#FF0000';
+        var scale = scale || 1
+        var color = color || '#FF0000';
 
-    this.heart = {
-        point  : point,
-        scale  : scale,
-        color  : color,
-        figure : new Heart(),
-    };
+        this.heart = {
+            point  : point,
+            scale  : scale,
+            color  : color,
+            figure : new Heart(),
+        }
 
-    // 在这里添加一行代码，将初始缩放应用到爱心
-    this.heart.figure.points.forEach(function(p) {
-        p.x *= scale;
-        p.y *= scale;
-    });
-
-    this.circle = {
-        point  : point,
-        scale  : scale,
-        color  : color,
-        radius : 5,
-    };
-};
-
+        this.cirle = {
+            point  : point,
+            scale  : scale,
+            color  : color,
+            radius : 5,
+        }
+    }
     Seed.prototype = {
         draw: function() {
             this.drawHeart();
