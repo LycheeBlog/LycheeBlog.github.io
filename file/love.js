@@ -80,7 +80,7 @@
 
         this.heart = {
             point  : point,
-            scale  : 10,
+            scale  : 6,
             color  : color,
             figure : new Heart(),
         }
