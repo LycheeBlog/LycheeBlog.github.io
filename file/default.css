@@ -2,14 +2,14 @@ body{margin:0;padding:0;background:#ffe;font-size:14px;font-family:'微软雅黑
 a {color:#000;font-size:14px;}
 #main{width:100%;}
 #wrap{position:relative;margin:0 auto;width:1100px;height:680px;margin-top:10px;}
-#text{width:400px;
+#text{width:350px;
 height:560px;
-left:10px;
-top:10px;position:absolute;
+left:80px;
+top:40px;position:absolute;
 }
 #code{display:none;font-size:16px;}
 #code span.say {
-    font-size: 35px !important;
+    font-size: 29px !important;
     color: red !important;
     line-height: 1 !important;
 }
