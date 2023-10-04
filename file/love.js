@@ -80,7 +80,7 @@
 
         this.heart = {
             point  : point,
-            scale  : 3,
+            scale  : 5,
             color  : color,
             figure : new Heart(),
         }
@@ -168,7 +168,7 @@
 
             ctx.moveTo(0, 0);
             ctx.scale(0.75, 0.75);
-            ctx.font = "15px  微软雅黑,Verdana"; // 字号肿么没有用? (ˉ(∞)ˉ)
+            ctx.font = "13px  微软雅黑,Verdana"; // 字号肿么没有用? (ˉ(∞)ˉ)
             ctx.fillText("宝贝，点击爱心", 23, 10);
             ctx.restore();
         },
