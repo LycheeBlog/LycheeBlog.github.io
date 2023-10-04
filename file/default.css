@@ -4,12 +4,12 @@ a {color:#000;font-size:14px;}
 #wrap{position:relative;margin:0 auto;width:1100px;height:680px;margin-top:10px;}
 #text{width:350px;
 height:560px;
-left:20px;
+left:90px;
 top:40px;position:absolute;
 }
 #code{display:none;font-size:16px;}
 #code span.say {
-    font-size: 28px !important;
+    font-size: 29px !important;
     color: red !important;
     line-height: 1 !important;
 }
