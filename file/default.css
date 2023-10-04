@@ -9,8 +9,8 @@ top:80px;position:absolute;
 }
 #code{display:none;font-size:16px;}
 #code span.say {
-    font-size: 24px; 
-    color: red;
+    font-size: 24px !important;
+    color: red !important;
 }
 #clock-box {position:absolute;left:60px;top:550px;font-size:28px;display:none;}
 #clock-box a {font-size:28px;text-decoration:none;}
