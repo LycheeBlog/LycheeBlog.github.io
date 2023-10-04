@@ -2,19 +2,19 @@ body{margin:0;padding:0;background:#ffe;font-size:14px;font-family:'微软雅黑
 a {color:#000;font-size:14px;}
 #main{width:100%;}
 #wrap{position:relative;margin:0 auto;width:1100px;height:680px;margin-top:10px;}
-#text{width:350px;
+#text{width:370px;
 height:560px;
-left:120px;
-top:60px;position:absolute;
+left:100px;
+top:40px;position:absolute;
 }
 #code{display:none;font-size:16px;}
 #code span.say {
-    font-size: 26px !important;
+    font-size: 30px !important;
     color: red !important;
     line-height: 1 !important;
 }
-#clock-box {position:absolute;left:60px;top:550px;font-size:28px;display:none;}
-#clock-box a {font-size:28px;text-decoration:none;}
+#clock-box {position:absolute;left:60px;top:550px;font-size:30px;display:none;}
+#clock-box a {font-size:30px;text-decoration:none;}
 #clock{margin-left:48px;}
 #clock .digit {font-size:64px;}
 #canvas{margin:0 auto;width:1100px;height:680px;}
